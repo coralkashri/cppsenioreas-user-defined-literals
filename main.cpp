@@ -171,8 +171,8 @@ int main() {
     std::cout << rad.get_degrees() << std::endl;
     std::cout << rad.get_radians() << std::endl;
 #elif EXAMPLE == 3
-    constexpr date d(23, 8, 2020);
-    constexpr auto new_date = d + 8_d + 3_m + 5_y;
+    constexpr date my_date(23, 8, 2020);
+    constexpr auto new_date = my_date + 8_d + 3_m + 5_y;
     std::cout << new_date.get_day() << " / " << new_date.get_month() << " / " << new_date.get_year() << std::endl;
     static_assert(new_date.get_day() == 1 && new_date.get_month() == 12 && new_date.get_year() == 2025);
 #endif
