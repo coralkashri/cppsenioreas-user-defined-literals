@@ -1,3 +1,11 @@
+/**
+ * All examples are taken from C++ Senioreas blog
+ * https://cppsenioreas.wordpress.com/
+ *
+ * Examples from:
+ * cpp_senioreas::the_number_that_broke_and_spoke_cpp_investigator
+ */
+
 #include <iostream>
 #include <chrono>
 #include <complex>
