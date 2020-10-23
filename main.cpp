@@ -4,6 +4,7 @@
  *
  * Examples from:
  * cpp_senioreas::the_number_that_broke_and_spoke_cpp_investigator
+ * https://cppsenioreas.wordpress.com/2020/10/13/the-number-that-broke-and-spoke-cpp-investigator/
  */
 
 #include <iostream>
